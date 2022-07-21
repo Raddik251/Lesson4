@@ -26,12 +26,10 @@ fun messageMins (timeIn:Int) : String {
     var minText = "минута"
     var minRemainder10 = minIn % 10
     var minRemainder100 = minIn % 100
-    if (minRemainder10 === 1 && minIn %  100 != 11) {
-        minText = "минуту"
-    } else if (minRemainder10 >= 2 && minRemainder10 <= 4 && (minRemainder100 - minRemainder10) != 10) {
-        minText = "минуты"
-    } else {
-        minText = "минут"
+    when {
+        minRemainder10 === 1 && minIn %  100 != 11 -> minText = "минуту"
+        minRemainder10 >= 2 && minRemainder10 <= 4 && (minRemainder100 - minRemainder10) != 10 -> minText = "минуты"
+        else -> minText = "минут"
     }
     return minText
 }
@@ -41,12 +39,10 @@ fun messageHours (timeIn:Int) : String {
     var hourText = "час"
     var hourRemainder10 = hourIn % 10
     var hourRemainder100 = hourIn % 100
-    if (hourRemainder10 === 1 && hourIn %  100 != 11) {
-        hourText = "час"
-    } else if (hourRemainder10 >= 2 && hourRemainder10 <= 4 && (hourRemainder100 - hourRemainder10) != 10) {
-        hourText = "часа"
-    } else {
-        hourText = "часов"
+    when {
+        hourRemainder10 === 1 && hourIn %  100 != 11 -> hourText = "час"
+        hourRemainder10 >= 2 && hourRemainder10 <= 4 && (hourRemainder100 - hourRemainder10) != 10 -> hourText = "часа"
+        else -> hourText = "часов"
     }
     return hourText
 }

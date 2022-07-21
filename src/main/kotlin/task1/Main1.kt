@@ -4,9 +4,7 @@ fun main () {
 
     println("Введите время последнего входа пользователя (в секундах)")
 
-    var timeInput = readLine()?.toInt() ?: return
-
-    timeIn = timeInput
+    var timeIn = readLine()?.toInt() ?: return
 
     println(agoToText(timeIn))
 
