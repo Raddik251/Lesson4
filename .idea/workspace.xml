@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca4a39cf-04e4-4d12-84b9-c1d125d4ac24" name="Changes" comment="Add program for task 2">
+    <list default="true" id="ca4a39cf-04e4-4d12-84b9-c1d125d4ac24" name="Changes" comment="Add JUnit 4.13.2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
     </list>
@@ -17,6 +17,31 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Lesson3" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Lesson3" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -42,7 +67,8 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "settings.editor.selected.configurable": "configurable.group.tools"
+    "last_opened_file_path": "C:/Users/rad25/Downloads/jacoco-0.8.8.zip",
+    "settings.editor.selected.configurable": "coverage"
   }
 }]]></component>
   <component name="RunManager" selected="Kotlin.Main2Kt">
@@ -97,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658428235426</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add JUnit 4.13.2">
+      <created>1658586126352</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1658586126353</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -115,6 +148,7 @@
     <MESSAGE value="Project created" />
     <MESSAGE value="Programm created" />
     <MESSAGE value="Add program for task 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add program for task 2" />
+    <MESSAGE value="Add JUnit 4.13.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add JUnit 4.13.2" />
   </component>
 </project>
