@@ -12,11 +12,8 @@ repositories {
 }
 
 dependencies {
-    testImplementation(kotlin("test"))
-}
-
-tasks.test {
-    useJUnitPlatform()
+    // https://mvnrepository.com/artifact/junit/junit
+    testImplementation("junit:junit:4.13.2")
 }
 
 tasks.withType<KotlinCompile> {
