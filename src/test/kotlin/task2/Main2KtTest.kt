@@ -9,9 +9,9 @@ class Main2KtTest {
     @Test
     fun moneyTransfer() {
         //arrange
-        val transfer = 50_000_00
+        val transfer = 4_000_00
         val sumOld = 500_000_00
-        val type = "Maestro"
+        val type = "Visa"
 
         //act
         val result = moneyTransfer(
@@ -21,6 +21,6 @@ class Main2KtTest {
         )
 
         //assert
-        assertEquals("Комиссия за перевод составила 32000 копеек", result)
+        assertEquals("Комиссия за перевод составила 3500 копеек", result)
     }
 }
