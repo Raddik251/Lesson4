@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca4a39cf-04e4-4d12-84b9-c1d125d4ac24" name="Changes" comment="Add jacoco">
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/task2/Main2KtTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-    </list>
+    <list default="true" id="ca4a39cf-04e4-4d12-84b9-c1d125d4ac24" name="Changes" comment="Delete build/ from gitignore" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -199,7 +195,21 @@
       <option name="project" value="LOCAL" />
       <updated>1658587239248</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Add test and reports">
+      <created>1658590006648</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1658590006648</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Delete build/ from gitignore">
+      <created>1658590215877</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1658590215877</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -207,7 +217,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -219,6 +241,8 @@
     <MESSAGE value="Add program for task 2" />
     <MESSAGE value="Add JUnit 4.13.2" />
     <MESSAGE value="Add jacoco" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add jacoco" />
+    <MESSAGE value="Add test and reports" />
+    <MESSAGE value="Delete build/ from gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Delete build/ from gitignore" />
   </component>
 </project>
