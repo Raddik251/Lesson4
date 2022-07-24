@@ -199,4 +199,22 @@ class Main2KtTest {
         //assert
         assertEquals("Комиссия за перевод составила 100012 копеек", result)
     }
+
+    @Test
+    fun moneyTransferVisaReminder12Wrong() {
+        //arrange
+        val transfer = 133_349_34
+        val sumOld = 500_000_00
+        val type = "Visa"
+
+        //act
+        val result = moneyTransfer(
+            transferNow = transfer,
+            sumOldTransfers = sumOld,
+            typeOfCard = type
+        )
+
+        //assert
+        assertEquals("Комиссия за перевод составила 100 копеек", result)
+    }
 }

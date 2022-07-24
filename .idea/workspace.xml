@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca4a39cf-04e4-4d12-84b9-c1d125d4ac24" name="Changes" comment="End tests">
+    <list default="true" id="ca4a39cf-04e4-4d12-84b9-c1d125d4ac24" name="Changes" comment="Add tests for branch coverage 82%">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jacocoHtml/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/jacocoHtml/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jacocoHtml/jacoco-sessions.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/jacocoHtml/jacoco-sessions.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/task2/Main2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/task2/Main2.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/kotlin/task2/Main2KtTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/task2/Main2KtTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -254,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658590977439</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Add tests for branch coverage 82%">
+      <created>1658665506441</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1658665506441</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -290,7 +293,8 @@
     <MESSAGE value="Delete build/ from gitignore" />
     <MESSAGE value="Add report to Git" />
     <MESSAGE value="End tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="End tests" />
+    <MESSAGE value="Add tests for branch coverage 82%" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add tests for branch coverage 82%" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Lesson3$Main2KtTest_moneyTransferMaestro.ic" NAME="Main2KtTest.moneyTransferMaestro Coverage Results" MODIFIED="1658662466838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
