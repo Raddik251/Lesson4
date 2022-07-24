@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca4a39cf-04e4-4d12-84b9-c1d125d4ac24" name="Changes" comment="Add report to Git">
-      <change afterPath="$PROJECT_DIR$/build/jacocoHtml/jacoco-sessions.html" afterDir="false" />
+    <list default="true" id="ca4a39cf-04e4-4d12-84b9-c1d125d4ac24" name="Changes" comment="End tests">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/jacocoHtml/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/jacocoHtml/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jacocoHtml/jacoco-sessions.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/jacocoHtml/jacoco-sessions.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/task2/Main2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/task2/Main2.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/kotlin/task2/Main2KtTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/task2/Main2KtTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,7 +75,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
     "last_opened_file_path": "C:/Users/rad25/Downloads/jacoco-0.8.8.zip",
-    "settings.editor.selected.configurable": "coverage"
+    "settings.editor.selected.configurable": "File.Encoding"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -90,7 +91,7 @@
       <command value="gradle test" />
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.Main2KtTest.moneyTransfer">
+  <component name="RunManager" selected="Gradle.Lesson3 [test]">
     <configuration name="Lesson3 [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -135,6 +136,29 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="Main2KtTest.moneyTransferMaestro" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;task2.Main2KtTest.moneyTransferMaestro&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="Main1Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="task1.Main1Kt" />
       <module name="Lesson3.main" />
@@ -151,6 +175,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.Main2KtTest.moneyTransferMaestro" />
         <item itemvalue="Kotlin.Main2Kt" />
         <item itemvalue="Gradle.Lesson3 [test]" />
         <item itemvalue="Kotlin.Main1Kt" />
@@ -222,7 +247,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658590364690</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="End tests">
+      <created>1658590977439</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1658590977439</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -257,9 +289,11 @@
     <MESSAGE value="Add test and reports" />
     <MESSAGE value="Delete build/ from gitignore" />
     <MESSAGE value="Add report to Git" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add report to Git" />
+    <MESSAGE value="End tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="End tests" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Lesson3$Main2KtTest_moneyTransferMaestro.ic" NAME="Main2KtTest.moneyTransferMaestro Coverage Results" MODIFIED="1658662466838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Lesson3$Main2KtTest_moneyTransfer.ic" NAME="Main2KtTest.moneyTransfer Coverage Results" MODIFIED="1658590889313" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

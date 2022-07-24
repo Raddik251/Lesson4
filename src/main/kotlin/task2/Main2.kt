@@ -39,23 +39,22 @@ fun moneyTransfer (
 ) : String {
     var sumOfMonth = transferNow + sumOldTransfers
     var fee = 0
-    var feeKop = "Копейка"
     when(typeOfCard) {
         "Mastercard", "Maestro" -> fee = if (sumOfMonth > 75_000_00) {
             ((transferNow * 0.006) + 20_00).toInt()
         } else 0
-        "Visa", "Мир" -> fee = if (transferNow <= FEE_VISA_MIR) {
+        "Visa", "MIR" -> fee = if (transferNow <= FEE_VISA_MIR) {
             35_00
         } else (transferNow * 0.0075).toInt()
         else -> fee = 0
     }
 
     var feeRemainder10 = fee % 10
-    var feeRemainder100 = fee % 10
+    var feeRemainder100 = fee % 100
 
     var feeText = when {
-        feeRemainder10 === 1 && feeRemainder100 != 11 -> feeKop = "копейку"
-        feeRemainder10 in 2..4 && (feeRemainder100 - feeRemainder10) != 10 -> feeKop = "копейки"
+        feeRemainder10 === 1 && feeRemainder100 != 11 -> "копейку"
+        feeRemainder10 in 2..4 && (feeRemainder100 - feeRemainder10) != 10 -> "копейки"
         else -> "копеек"
     }
 
